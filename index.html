@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+  
+  <title>Room homepage</title>
+  <link rel="stylesheet" href="homepage.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=League+Spartan:wght@100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+  <main class="main">
+
+    <div class="headerMobile" id="headerMobile">
+      <img src="images/icon-hamburger.svg" alt="Navigation" class="hamburger" id="hamburger">
+      <div>
+        <div class="mobile-navigation hidden" id="mobileNavigation">
+          <img src="images/icon-close.svg" alt="Close" class="close" id="close">
+          <p class="navigation-mobile">Home</p>
+          <p class="navigation-mobile">Shop</p>
+          <p class="navigation-mobile">About</p>
+          <p class="navigation-mobile">Contact</p>
+        </div>
+      </div>
+
+    </div>
+
+
+    <header class="header">
+      <img src="images/logo.svg" alt="Logo" class="logo">
+      <div class="navigation-holder">
+        <p class="navigation">Home</p>
+        <p class="navigation">Shop</p>
+        <p class="navigation">About</p>
+        <p class="navigation">Contact</p>
+      </div>
+
+    </header>
+
+    <article class="article" data-carousel>
+      <div class="carousel" data-slides>
+        <div class="discover slide" data-active>
+          <img src="images/desktop-image-hero-1.jpg" alt="Image 1" class="heroImage">
+          <img src="images/mobile-image-hero-1.jpg" alt="Image 1" class="heroImageBackground">
+          <div class="slide-text-holder">
+            <div class="text-holder-noButton">
+              <h1 class="slide-heading">Discover innovative ways to decorate</h1>
+              <p class="slide-text">
+                We provide unmatched quality, comfort, and style for property owners across the country. 
+                Our experts combine form and function in bringing your vision to life. Create a room in your 
+                own style with our collection and make your property a reflection of you and what you love.
+              </p>
+              <button class="shop-now">Shop now <img src="images/icon-arrow.svg" alt="Arrow" class="arrow"></button>
+            </div>
+            <div class="buttons-holder">
+              <button class="carousel-button prev" data-carousel-button="prev"><img src="images/icon-angle-left.svg" alt="Left Arrow"></button>
+              <button class="carousel-button next" data-carousel-button="next"><img src="images/icon-angle-right.svg" alt="Right Arrow"></button>
+            </div>
+          </div>
+        </div>
+
+        <div class="globe slide">
+          <img src="images/desktop-image-hero-2.jpg" alt="Image 2" class="heroImage">
+          <img src="images/mobile-image-hero-2.jpg" alt="Image 2" class="heroImageBackground">
+          <div class="slide-text-holder">
+            <div class="text-holder-noButton">
+              <h1 class="slide-heading">We are available all across the globe</h1>
+              <p class="slide-text">
+                With stores all over the world, it's easy for you to find furniture for your home or place of business. 
+                Locally, we’re in most major cities throughout the country. Find the branch nearest you using our 
+                store locator. Any questions? Don't hesitate to contact us today.
+              </p>
+              <button class="shop-now">Shop now <img src="images/icon-arrow.svg" alt="Arrow"></button>
+            </div>
+            <div class="buttons-holder">
+              <button class="carousel-button prev" data-carousel-button="prev"><img src="images/icon-angle-left.svg" alt="Left Arrow"></button>
+              <button class="carousel-button next" data-carousel-button="next"><img src="images/icon-angle-right.svg" alt="Right Arrow"></button>
+            </div>
+          </div>
+        </div>
+
+        <div class="manufacture slide">
+          <img src="images/desktop-image-hero-3.jpg" alt="Image 3" class="heroImage">
+          <img src="images/mobile-image-hero-3.jpg" alt="Image 3" class="heroImageBackground">
+          <div class="slide-text-holder">
+            <div class="text-holder-noButton">
+              <h1 class="slide-heading">Manufactured with the best materials</h1>
+              <p class="slide-text">
+                Our modern furniture store provide a high level of quality. Our company has invested in advanced technology 
+                to ensure that every product is made as perfect and as consistent as possible. With three decades of 
+                experience in this industry, we understand what customers want for their home and office.
+              </p>
+              <button class="shop-now">Shop now <img src="images/icon-arrow.svg" alt="Arrow"></button>
+            </div>
+            <div class="buttons-holder">
+              <button class="carousel-button prev" data-carousel-button="prev"><img src="images/icon-angle-left.svg" alt="Left Arrow"></button>
+              <button class="carousel-button next" data-carousel-button="next"><img src="images/icon-angle-right.svg" alt="Right Arrow"></button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </article>
+
+    <summary class="summary">  
+      <img src="images/image-about-dark.jpg" alt="Dark Sofa" class="side-image">  
+      <div class="summary-text-holder">
+        <h1 class="summary-heading">About our furniture</h1>
+        <p class="summary-text">
+          Our multifunctional collection blends design and function to suit your individual taste.
+          Make each room unique, or pick a cohesive theme that best express your interests and what
+          inspires you. Find the furniture pieces you need, from traditional to contemporary styles
+          or anything in between. Product specialists are available to help you create your dream space.
+        </p>
+      </div>
+      <img src="images/image-about-light.jpg" alt="Light Chair" class="side-image">
+    </summary>
+  </main>
+
+  <script src="homepage.js"></script>
+</body>
+</html>
